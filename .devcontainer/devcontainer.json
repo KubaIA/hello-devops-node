@@ -1,0 +1,8 @@
+{
+  "name": "Hello DevOps DevContainer",
+  "dockerFile": "../Dockerfile",
+  "context": "..",
+  "appPort": [8080],
+  "postCreateCommand": "npm install",
+  "remoteUser": "node"
+}
